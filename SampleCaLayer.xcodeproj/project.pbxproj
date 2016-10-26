@@ -15,6 +15,7 @@
 		FD57AE111D5B32D9008207C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD57AE0F1D5B32D9008207C7 /* LaunchScreen.storyboard */; };
 		FD57AE1C1D5B32D9008207C7 /* SampleCaLayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD57AE1B1D5B32D9008207C7 /* SampleCaLayerTests.m */; };
 		FD57AE271D5B32D9008207C7 /* SampleCaLayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD57AE261D5B32D9008207C7 /* SampleCaLayerUITests.m */; };
+		FD57AE351D5B4326008207C7 /* unnamed.png in Resources */ = {isa = PBXBuildFile; fileRef = FD57AE341D5B4326008207C7 /* unnamed.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		FD57AE221D5B32D9008207C7 /* SampleCaLayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleCaLayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD57AE261D5B32D9008207C7 /* SampleCaLayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleCaLayerUITests.m; sourceTree = "<group>"; };
 		FD57AE281D5B32D9008207C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD57AE341D5B4326008207C7 /* unnamed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unnamed.png; path = ../../../../Downloads/unnamed.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		FD57AE001D5B32D9008207C7 /* SampleCaLayer */ = {
 			isa = PBXGroup;
 			children = (
+				FD57AE341D5B4326008207C7 /* unnamed.png */,
 				FD57AE041D5B32D9008207C7 /* AppDelegate.h */,
 				FD57AE051D5B32D9008207C7 /* AppDelegate.m */,
 				FD57AE071D5B32D9008207C7 /* ViewController.h */,
@@ -245,6 +248,7 @@
 			files = (
 				FD57AE111D5B32D9008207C7 /* LaunchScreen.storyboard in Resources */,
 				FD57AE0E1D5B32D9008207C7 /* Assets.xcassets in Resources */,
+				FD57AE351D5B4326008207C7 /* unnamed.png in Resources */,
 				FD57AE0C1D5B32D9008207C7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +420,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SampleCaLayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Pathfinder.SampleCaLayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +432,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SampleCaLayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Pathfinder.SampleCaLayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +504,7 @@
 				FD57AE2D1D5B32D9008207C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD57AE2E1D5B32D9008207C7 /* Build configuration list for PBXNativeTarget "SampleCaLayerTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				FD57AE301D5B32D9008207C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD57AE311D5B32D9008207C7 /* Build configuration list for PBXNativeTarget "SampleCaLayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				FD57AE331D5B32D9008207C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
